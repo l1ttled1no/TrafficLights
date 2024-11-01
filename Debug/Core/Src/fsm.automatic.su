@@ -1,0 +1,5 @@
+../Core/Src/fsm.automatic.c:42:6:setLightH	16	static
+../Core/Src/fsm.automatic.c:83:6:setLightV	16	static
+../Core/Src/fsm.automatic.c:124:6:updateLED	4	static
+../Core/Src/fsm.automatic.c:131:6:auto_traffic	8	static
+../Core/Src/fsm.automatic.c:183:6:fsm_automatic_run	8	static
