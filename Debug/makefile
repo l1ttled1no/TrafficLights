@@ -63,8 +63,8 @@ all: main-build
 main-build: TrafficLights.elf secondary-outputs
 
 # Tool invocations
-TrafficLights.elf TrafficLights.map: $(OBJS) $(USER_OBJS) C:\Users\l1ttled1no\OneDrive\ -\ l1ttled1no\HCMUT\Year_3\Sem1\MPU-MCU\ (CO3009)\btl\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "TrafficLights.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\l1ttled1no\OneDrive - l1ttled1no\HCMUT\Year_3\Sem1\MPU-MCU (CO3009)\btl\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TrafficLights.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+TrafficLights.elf TrafficLights.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\STM32CubeIDE\workspace_1.16.0\TrafficLights\STM32F103RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "TrafficLights.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Admin\STM32CubeIDE\workspace_1.16.0\TrafficLights\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TrafficLights.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

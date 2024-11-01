@@ -12,6 +12,8 @@
 #include "input_reading.h"
 #include "software_timer.h"
 #include "button.h"
+#include "i2c-lcd.h"
+
 
 #define INIT 				1
 #define NS_GREEN_EW_RED		2
