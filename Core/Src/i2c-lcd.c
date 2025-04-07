@@ -1,5 +1,6 @@
 /** 
-Edit by modify: Ngoc Hang 
+Edit by modify: l1ttled1no
+Fix: change slave addr
 **/
 
 #include "i2c-lcd.h"
